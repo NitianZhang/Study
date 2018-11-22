@@ -21,11 +21,11 @@ public:
 		num2 = b.run();
 		num3 = c.run();
 		if (num1 == num2&&num1==num3)
-			cout << num1 << " " << num2 << " " << num3 << " ±ª×Ó" << endl;
+			cout << num1 << " " << num2 << " " << num3 << " Â±ÂªÃ—Ã“" << endl;
 		else if(num1+num2+num3>10)
-			cout << num1 << " " << num2 << " " << num3 << " ´ó" << endl;
+			cout << num1 << " " << num2 << " " << num3 << " Â´Ã³" << endl;
 		else
-			cout << num1 << " " << num2 << " " << num3 << " Ğ¡" << endl;
+			cout << num1 << " " << num2 << " " << num3 << " ÃÂ¡" << endl;
 	}
 };
 int main()
